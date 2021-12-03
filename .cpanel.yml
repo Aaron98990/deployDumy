@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/cxpoc/repositories/deployDumy
+ - /bin/cp -a * $DEPLOYPATH
